@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .content {
+    background-color: pink;
+    width: 40%;
+    padding: 30px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .content:target {
+    opacity: 1;
+    visibility: visible;
+ }
+    </style>
+</head>
+<body>
+    <body>
+        <div class="button-div">
+            <a href="#popup" class="button">
+              <button>Click</button>
+            </a>
+          </div>
+      
+          <div class="content" id="popup">
+            <a href="#">close</a>
+            <br>
+            <p>Popup div content</p>
+          </div>
+    </body>
+    </body>
+</body>
+</html>

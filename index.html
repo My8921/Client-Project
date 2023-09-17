@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        height: 100vh;
+        width: 98.6vw;
+    }
+    .left img{
+    height: 50px;
+    }
+.search_box input{
+background: transparent;
+border:0px;
+outline: 0px;
+width: 150px;
+box-sizing: border-box;
+font-size: 11px;
+padding: 2px;
+}
+.search_box{
+    margin: 10px;
+  width: 170px;
+   height: 32%;
+    border: 2px solid black;
+  padding:6px;
+    border-radius: 60px;
+}
+.fa-search{
+    color: black;
+    font-size: 16px;
+  
+}
+.Section1{
+    background-image: url("Section1.png");
+    height: 75%;
+    background-size: cover;
+ 
+    background-repeat: no-repeat;
+}
+head{
+    background-color: white;
+    border: 2px solid black;
+    
+}
+nav{
+    display: flex;
+ background-color:rgba(255, 255, 255, 0.4);
+
+    justify-content: space-between;
+   height: 10%;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 2px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+   
+
+}
+.mid{
+    width: 50%;
+   
+    margin: 10px 60px;
+}
+.mid li{
+    display:inline-block;
+}
+.mid li a{
+    padding: 0px 7px;
+}
+.left img{
+   
+    height: 50px;
+    padding-left: 7px;
+}
+.main_text{
+    margin:65px 0px;
+  
+text-align: center;
+    font-size: 25px;
+  font-family: "Comfortaa";
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+line-height: 60px;
+}
+.btn{
+    background-color: transparent;
+    outline:none;
+    border: 1px solid white;
+    color: white;
+    padding: 4px;
+    width:7.5%;
+    height: 7.5%;
+font-weight: 200;
+font-size: 18px;
+
+}
+.section2{
+    background-image: url("background2.png");
+ 
+}
+.section2 #one {
+    font-size: 28px;
+  font-family: "Hegemonic";
+  color: rgb(203, 0, 0);
+  line-height: 2.292;
+  text-align: center;
+  background-size: cover;
+
+}
+.section2 #one a{
+    text-decoration: none;
+    font-size: 28px;
+  font-family: "Hegemonic";
+  color: rgb(203, 0, 0);
+  line-height: 2.292;
+  text-align: center;
+  background-size: cover;
+
+}
+.section2 #three{
+    font-size: 28px;
+  font-family: "Hegemonic";
+  color: rgb(203, 0, 0);
+  line-height: 2.292;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+  
+ 
+}
+.section2 #two{
+    font-size: 20px;
+  font-family: "Hegemonic";
+  color: rgb(17, 16, 16);
+  line-height: 2.292;
+  text-align: center;
+  background-size: cover;
+}
+.slider{
+   
+    height: 70%;
+  
+}
+.form{
+background-image: url("mapdesign.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.form img{
+    height: 50vh;
+}
+.form input{
+    display: block;
+    padding: 5px;
+
+    height: 50px;
+    width:300px;
+    margin: 50px 109px;
+}
+textarea{
+padding: 3px;
+
+position: relative;
+left: 9%;
+width: 293px;
+height: 155px;
+margin-bottom: 60px;
+}
+.form button{
+    background-color: red;
+    outline: none;
+    height: 7vh;
+width: 24.3vw;
+color: white;
+border: none;
+position: relative;
+font-weight: bolder;
+right: 15.5%;
+font-size: 22px;
+margin-bottom: 35px;
+cursor: pointer;
+}
+.line{
+    width: 10%;
+  background-color: black;
+  margin: 19px 45%;
+  border: 2px solid black;
+}
+#img1{
+    position: relative;
+    left: 2%;
+    bottom: 100px;
+    cursor: pointer;
+}
+#img2{
+  margin: 4% 0px;
+    position: relative;
+    left: 3%;
+    box-shadow: 3px 0px 13px black;
+}
+#img3{
+    position: relative;
+    bottom: 2vw;
+    left: 6vw;
+    box-shadow: 3px 0px 16px black;
+}
+#img4{
+    position: relative;
+    bottom: 3vw;
+    left: 10vw;
+    box-shadow: 3px 0px 13px black;
+}
+#img5{
+    position: relative;
+    left: 12vw;
+    bottom: 6vw;
+
+
+    cursor: pointer;
+}
+#img6{
+    cursor: pointer;
+    position: relative;
+    left: 45vw;
+
+
+}
+.contact{
+    margin: 0 auto;
+
+width: 50%;
+padding: 1% 0px;
+height: 27vh;
+}
+.box_1{
+    display:inline-block;
+ position: relative;
+ top: 4vh;
+   margin: 16px 15px;
+}
+.box_2{
+    display:inline-block;
+
+    margin: 0 15px;
+}
+.box_3{
+    display:inline-block;
+   
+    margin: 0 15px;
+}
+footer{
+    background-color: black;
+    height: 26vh;
+}
+footer img{
+  position: relative;
+  left: 40%;
+}
+footer input{
+    position: relative;
+    margin-top: 20px;
+    right: 12%;
+    width: 12vw;
+}
+footer button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 7vw;
+    height: 5vh;
+    font-size: 13px;
+    margin-top: 3vh;
+    margin-left: 4vh;
+}
+footer p{
+    font-size: 16px;
+  font-family: "Hegemonic";
+  color: rgb(252, 253, 254);
+  float:right;
+  position: relative;
+  right: 2%;
+
+    
+}
+.social_box{
+    position: relative;
+    float: right;
+    margin-top: 22px;
+}
+.content {
+    background-color:white;
+    width: 30%;
+ height: 140vh;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    bottom: 200px;
+   left: 30%;
+    z-index: 67;
+  }
+  .content:target {
+    opacity: 1;
+    visibility: visible;
+ }
+ button{
+    cursor: pointer;
+ }
+ .top{
+    background-color: black;
+    height: 25vh;
+    border-bottom: 2px solid white;
+ }
+.w_line{
+    border: 1px solid white;
+    width: 6vw;
+margin: 0 auto;
+}
+.form_content{
+
+    height: 100vh;
+    background-color: white;
+    z-index: 5;
+}
+.form_content label{
+    color: black;
+    font-size: 17px;
+    font-weight: lighter;
+    margin: 0 12px;
+}
+.form_content input
+{
+    outline: 0;
+    border-bottom: 1px solid black;
+    border-width: 0,0.2px;
+ 
+    background-color: transparent;
+    border: 2px solid white;
+    border-bottom: 1px solid black;
+    
+}
+.form_content button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 5vh;
+    width: 8vw;
+
+    box-shadow: 2px 2px 5px white;
+    
+    }
+
+
+#close_button{
+    position: relative;
+    right: 45%;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="Section1" id="Sc1">
+    <head>
+        <nav>
+            <ul class="left">
+                <img src="Logo.png" alt="">
+            </ul>
+
+
+            <ul class="mid">
+                <li> <a href="">Acceuil</a> </li>
+                <li> <a href="#sl">Agenda</a> </li>
+                <li> <a href="">Nos espaces</a> </li>
+                <li> <a href="">LAGORA BtoB</a> </li>
+                <li> <a href="">Expostions</a></li>
+
+                </ul>
+
+<div class="search_box">
+<input type="search" placeholder="search">
+<a href="#"><i class="fa fa-search"></i></a>
+</div>
+           
+        </nav>
+        
+        
+            </head>
+
+
+<div class="main_text">
+
+    <P>Faites  de Votre èvènement <br> un moment d'e exception</P>
+
+    <div class="button-div">
+        <a href="#popup" class="button">
+          <button class="btn">Rèserver</button>
+        </a>
+      </div>
+  
+      <div class="content" id="popup">
+       <div class="top">
+<img src="Logo.png" alt="" srcset="" height="50px">
+
+<p style="color: white;">Reservation</p>
+
+<div class="w_line"></div>
+       </div>
+     <div class="form_content">
+        <label for="Particular">Particular</label>
+<input type="radio" name="n" id="Particular">
+<label for="Enterprise">Enterprise</label>
+<input type="radio" name="n" id="Enterprise" >
+<br>
+<label for="Nom">Nom:</label>
+<input type="text" placeholder="votre Nom" >
+<br>
+<label for="PreNom">PrèNom:</label>
+<input type="text" placeholder="votre prèNom" >
+
+
+
+
+
+<br>
+<label for="Date">Date:</label>
+<input type="text" placeholder="jour/moice/aunce" >
+<br>
+<label for="">Nature de l'èvènement</label>
+<input type="text">
+<br>
+<label for="">Nombre de l Personnes</label>
+<input type="text">
+<br>
+<label for="">Nos Espaces &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;</label>
+<input type="text">
+
+<br>
+<label for="">Avec triateurs &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+<input type="checkbox">
+<br>
+<label for="">Avec Serveurs &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+<input type="checkbox">
+<br>
+<label for="">Avec triateurs et Serveurs &nbsp; &nbsp; &nbsp; &nbsp; </label>
+<input type="checkbox">
+
+<br>
+
+
+<button>Rèserver</button>
+     </div>
+        <a href="#" id="close_button"><img src="close_icon.jpg" height="40px" alt=""></a>
+      </div>
+
+
+    
+</div>
+
+</div>
+<div class="section2">
+<p  id="one"> <a href="#Sc1">Agenda</a></p>
+<p id="two">Nos films les plus rècènts.</p>
+
+<div class="slider" id="sl">
+
+<img src="left_slider.png"  id="img1"  height="60px" alt="">
+<img src="WOMEN TALKING_1920x1080 _PROCHAINEMENT (1)_0.jpg"  id="img2"  height="140px" alt="">
+<img src="Creed III_0.jpg" height="180px" id="img3" alt="">
+<img src="Houria1_0.png"   id="img4" height="140px" alt="">
+<img src="right_slider.png" id="img5"height="60px" alt="">
+<br>
+<img src="three_dots.png" height="60px"  id="img6" alt="">
+</div>
+<p  id="three">Contactez-nous</p>
+<hr class="line">
+
+<div class="form">
+
+    <div class="inside">
+
+        <input type="text" placeholder="Nom..">
+
+        <input type="text" placeholder="Prènom">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        
+<button>Envoyer</button>
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+<div class="contact">
+
+    <div class="box_1">
+        <img src="location_icon.png" alt="" height="50px" style="position: relative; left: 50px;">
+        <p>5 avenue Taieb El Mhiri, <br> <p style="text-align: center;">La Marsa</p> </p>
+    </div>
+    <div class="box_2">
+
+        <img src="mail_icon.jpg"  height="50px" alt="">
+
+        <p>Lagora@lagora.tn</p>
+    </div>
+   <div class="box_3">
+
+<img src="call_icon.avif"  height="60px"  alt="">
+<p>Tel: 71 47 266</p>
+   </div>
+
+
+</div>
+
+
+
+<footer>
+<img src="Logo.png" alt="" height="80px">
+
+<input type="text" placeholder="votre@email.com">
+<br>
+<button>S'inscrir</button>
+<p>Contactez-nous</p>
+<div class="social_box">
+    <img src="instagramm_icon.jpg"  style="cursor: pointer;"  height="30px" alt="">
+    <img src="facebook_icon.avif"      style="cursor: pointer;"    height="30px" alt="">
+</div>
+
+
+
+</footer>
+
+
+
+
+
+
+</body>
+</html>
